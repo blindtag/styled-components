@@ -8,12 +8,12 @@ function App() {
   return (
     <ThemeProvider theme = {theme}>
       <>
-    <GlobalStyles />
-    <Header />
-    <Container >
-      <h1>Hello World</h1>
-    </Container>
-    </>
+       <GlobalStyles />
+        <Header />
+           <Container >
+             <h1>Hello World</h1>
+           </Container>
+      </>
     </ThemeProvider>
   );
 }
